@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2E76D561CD7D5320006F70D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E76D551CD7D5320006F70D /* AppDelegate.swift */; };
+		C2E76D581CD7D5320006F70D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E76D571CD7D5320006F70D /* ViewController.swift */; };
+		C2E76D5B1CD7D5320006F70D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E76D591CD7D5320006F70D /* Main.storyboard */; };
+		C2E76D5D1CD7D5320006F70D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2E76D5C1CD7D5320006F70D /* Assets.xcassets */; };
+		C2E76D601CD7D5320006F70D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E76D5E1CD7D5320006F70D /* LaunchScreen.storyboard */; };
+		C2E76D6B1CD7D5320006F70D /* KoreoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E76D6A1CD7D5320006F70D /* KoreoTests.swift */; };
+		C2E76D761CD7D5320006F70D /* KoreoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E76D751CD7D5320006F70D /* KoreoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2E76D671CD7D5320006F70D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2E76D4A1CD7D5320006F70D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2E76D511CD7D5320006F70D;
+			remoteInfo = Koreo;
+		};
+		C2E76D721CD7D5320006F70D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2E76D4A1CD7D5320006F70D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2E76D511CD7D5320006F70D;
+			remoteInfo = Koreo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2E76D521CD7D5320006F70D /* Koreo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Koreo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2E76D551CD7D5320006F70D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2E76D571CD7D5320006F70D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2E76D5A1CD7D5320006F70D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2E76D5C1CD7D5320006F70D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2E76D5F1CD7D5320006F70D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2E76D611CD7D5320006F70D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2E76D661CD7D5320006F70D /* KoreoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoreoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2E76D6A1CD7D5320006F70D /* KoreoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoreoTests.swift; sourceTree = "<group>"; };
+		C2E76D6C1CD7D5320006F70D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2E76D711CD7D5320006F70D /* KoreoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KoreoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2E76D751CD7D5320006F70D /* KoreoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoreoUITests.swift; sourceTree = "<group>"; };
+		C2E76D771CD7D5320006F70D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2E76D4F1CD7D5320006F70D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E76D631CD7D5320006F70D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E76D6E1CD7D5320006F70D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2E76D491CD7D5320006F70D = {
+			isa = PBXGroup;
+			children = (
+				C2E76D541CD7D5320006F70D /* Koreo */,
+				C2E76D691CD7D5320006F70D /* KoreoTests */,
+				C2E76D741CD7D5320006F70D /* KoreoUITests */,
+				C2E76D531CD7D5320006F70D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2E76D531CD7D5320006F70D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2E76D521CD7D5320006F70D /* Koreo.app */,
+				C2E76D661CD7D5320006F70D /* KoreoTests.xctest */,
+				C2E76D711CD7D5320006F70D /* KoreoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2E76D541CD7D5320006F70D /* Koreo */ = {
+			isa = PBXGroup;
+			children = (
+				C2E76D551CD7D5320006F70D /* AppDelegate.swift */,
+				C2E76D571CD7D5320006F70D /* ViewController.swift */,
+				C2E76D591CD7D5320006F70D /* Main.storyboard */,
+				C2E76D5C1CD7D5320006F70D /* Assets.xcassets */,
+				C2E76D5E1CD7D5320006F70D /* LaunchScreen.storyboard */,
+				C2E76D611CD7D5320006F70D /* Info.plist */,
+			);
+			path = Koreo;
+			sourceTree = "<group>";
+		};
+		C2E76D691CD7D5320006F70D /* KoreoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2E76D6A1CD7D5320006F70D /* KoreoTests.swift */,
+				C2E76D6C1CD7D5320006F70D /* Info.plist */,
+			);
+			path = KoreoTests;
+			sourceTree = "<group>";
+		};
+		C2E76D741CD7D5320006F70D /* KoreoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2E76D751CD7D5320006F70D /* KoreoUITests.swift */,
+				C2E76D771CD7D5320006F70D /* Info.plist */,
+			);
+			path = KoreoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2E76D511CD7D5320006F70D /* Koreo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2E76D7A1CD7D5320006F70D /* Build configuration list for PBXNativeTarget "Koreo" */;
+			buildPhases = (
+				C2E76D4E1CD7D5320006F70D /* Sources */,
+				C2E76D4F1CD7D5320006F70D /* Frameworks */,
+				C2E76D501CD7D5320006F70D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Koreo;
+			productName = Koreo;
+			productReference = C2E76D521CD7D5320006F70D /* Koreo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2E76D651CD7D5320006F70D /* KoreoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2E76D7D1CD7D5320006F70D /* Build configuration list for PBXNativeTarget "KoreoTests" */;
+			buildPhases = (
+				C2E76D621CD7D5320006F70D /* Sources */,
+				C2E76D631CD7D5320006F70D /* Frameworks */,
+				C2E76D641CD7D5320006F70D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2E76D681CD7D5320006F70D /* PBXTargetDependency */,
+			);
+			name = KoreoTests;
+			productName = KoreoTests;
+			productReference = C2E76D661CD7D5320006F70D /* KoreoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2E76D701CD7D5320006F70D /* KoreoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2E76D801CD7D5320006F70D /* Build configuration list for PBXNativeTarget "KoreoUITests" */;
+			buildPhases = (
+				C2E76D6D1CD7D5320006F70D /* Sources */,
+				C2E76D6E1CD7D5320006F70D /* Frameworks */,
+				C2E76D6F1CD7D5320006F70D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2E76D731CD7D5320006F70D /* PBXTargetDependency */,
+			);
+			name = KoreoUITests;
+			productName = KoreoUITests;
+			productReference = C2E76D711CD7D5320006F70D /* KoreoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2E76D4A1CD7D5320006F70D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Lucas Farah";
+				TargetAttributes = {
+					C2E76D511CD7D5320006F70D = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					C2E76D651CD7D5320006F70D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C2E76D511CD7D5320006F70D;
+					};
+					C2E76D701CD7D5320006F70D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C2E76D511CD7D5320006F70D;
+					};
+				};
+			};
+			buildConfigurationList = C2E76D4D1CD7D5320006F70D /* Build configuration list for PBXProject "Koreo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2E76D491CD7D5320006F70D;
+			productRefGroup = C2E76D531CD7D5320006F70D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2E76D511CD7D5320006F70D /* Koreo */,
+				C2E76D651CD7D5320006F70D /* KoreoTests */,
+				C2E76D701CD7D5320006F70D /* KoreoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2E76D501CD7D5320006F70D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E76D601CD7D5320006F70D /* LaunchScreen.storyboard in Resources */,
+				C2E76D5D1CD7D5320006F70D /* Assets.xcassets in Resources */,
+				C2E76D5B1CD7D5320006F70D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E76D641CD7D5320006F70D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E76D6F1CD7D5320006F70D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2E76D4E1CD7D5320006F70D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E76D581CD7D5320006F70D /* ViewController.swift in Sources */,
+				C2E76D561CD7D5320006F70D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E76D621CD7D5320006F70D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E76D6B1CD7D5320006F70D /* KoreoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E76D6D1CD7D5320006F70D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E76D761CD7D5320006F70D /* KoreoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2E76D681CD7D5320006F70D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2E76D511CD7D5320006F70D /* Koreo */;
+			targetProxy = C2E76D671CD7D5320006F70D /* PBXContainerItemProxy */;
+		};
+		C2E76D731CD7D5320006F70D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2E76D511CD7D5320006F70D /* Koreo */;
+			targetProxy = C2E76D721CD7D5320006F70D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2E76D591CD7D5320006F70D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2E76D5A1CD7D5320006F70D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2E76D5E1CD7D5320006F70D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2E76D5F1CD7D5320006F70D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2E76D781CD7D5320006F70D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2E76D791CD7D5320006F70D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2E76D7B1CD7D5320006F70D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Koreo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.Koreo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C2E76D7C1CD7D5320006F70D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Koreo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.Koreo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C2E76D7E1CD7D5320006F70D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KoreoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.KoreoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Koreo.app/Koreo";
+			};
+			name = Debug;
+		};
+		C2E76D7F1CD7D5320006F70D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KoreoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.KoreoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Koreo.app/Koreo";
+			};
+			name = Release;
+		};
+		C2E76D811CD7D5320006F70D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KoreoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.KoreoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Koreo;
+			};
+			name = Debug;
+		};
+		C2E76D821CD7D5320006F70D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KoreoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.KoreoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Koreo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2E76D4D1CD7D5320006F70D /* Build configuration list for PBXProject "Koreo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E76D781CD7D5320006F70D /* Debug */,
+				C2E76D791CD7D5320006F70D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2E76D7A1CD7D5320006F70D /* Build configuration list for PBXNativeTarget "Koreo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E76D7B1CD7D5320006F70D /* Debug */,
+				C2E76D7C1CD7D5320006F70D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C2E76D7D1CD7D5320006F70D /* Build configuration list for PBXNativeTarget "KoreoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E76D7E1CD7D5320006F70D /* Debug */,
+				C2E76D7F1CD7D5320006F70D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C2E76D801CD7D5320006F70D /* Build configuration list for PBXNativeTarget "KoreoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E76D811CD7D5320006F70D /* Debug */,
+				C2E76D821CD7D5320006F70D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2E76D4A1CD7D5320006F70D /* Project object */;
+}
