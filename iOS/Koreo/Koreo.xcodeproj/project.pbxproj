@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78C96E991CDA727100F9FF94 /* Robert Dalton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 78C96E981CDA727100F9FF94 /* Robert Dalton.jpg */; };
+		78C96E9B1CDA731F00F9FF94 /* DeRosales Andres.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 78C96E9A1CDA731F00F9FF94 /* DeRosales Andres.jpg */; };
+		78C96E9D1CDA73BC00F9FF94 /* Anne Freeman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 78C96E9C1CDA73BC00F9FF94 /* Anne Freeman.jpg */; };
+		78C96E9F1CDA742900F9FF94 /* Liam Watters.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 78C96E9E1CDA742900F9FF94 /* Liam Watters.jpg */; };
+		78C96EA11CDA745E00F9FF94 /* Sutton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 78C96EA01CDA745E00F9FF94 /* Sutton.jpg */; };
+		78C96EA31CDA748C00F9FF94 /* Stud Muffin Hart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 78C96EA21CDA748C00F9FF94 /* Stud Muffin Hart.jpg */; };
+		78C96EA51CDA74D000F9FF94 /* Hart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 78C96EA41CDA74D000F9FF94 /* Hart.jpg */; };
 		C2E76D561CD7D5320006F70D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E76D551CD7D5320006F70D /* AppDelegate.swift */; };
 		C2E76D581CD7D5320006F70D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E76D571CD7D5320006F70D /* ViewController.swift */; };
 		C2E76D5B1CD7D5320006F70D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E76D591CD7D5320006F70D /* Main.storyboard */; };
@@ -34,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		78C96E981CDA727100F9FF94 /* Robert Dalton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Robert Dalton.jpg"; path = "../../../../../Desktop/Robert Dalton.jpg"; sourceTree = "<group>"; };
+		78C96E9A1CDA731F00F9FF94 /* DeRosales Andres.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "DeRosales Andres.jpg"; path = "../../../../../Desktop/DeRosales Andres.jpg"; sourceTree = "<group>"; };
+		78C96E9C1CDA73BC00F9FF94 /* Anne Freeman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Anne Freeman.jpg"; path = "../../../../../Desktop/Anne Freeman.jpg"; sourceTree = "<group>"; };
+		78C96E9E1CDA742900F9FF94 /* Liam Watters.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Liam Watters.jpg"; path = "../../../../../Desktop/Liam Watters.jpg"; sourceTree = "<group>"; };
+		78C96EA01CDA745E00F9FF94 /* Sutton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Sutton.jpg; path = ../../../../../Desktop/Sutton.jpg; sourceTree = "<group>"; };
+		78C96EA21CDA748C00F9FF94 /* Stud Muffin Hart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Stud Muffin Hart.jpg"; path = "../../../../../Desktop/Stud Muffin Hart.jpg"; sourceTree = "<group>"; };
+		78C96EA41CDA74D000F9FF94 /* Hart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Hart.jpg; path = ../../../../../Desktop/Hart.jpg; sourceTree = "<group>"; };
 		C2E76D521CD7D5320006F70D /* Koreo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Koreo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2E76D551CD7D5320006F70D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2E76D571CD7D5320006F70D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +95,13 @@
 				C2E76D691CD7D5320006F70D /* KoreoTests */,
 				C2E76D741CD7D5320006F70D /* KoreoUITests */,
 				C2E76D531CD7D5320006F70D /* Products */,
+				78C96E981CDA727100F9FF94 /* Robert Dalton.jpg */,
+				78C96E9A1CDA731F00F9FF94 /* DeRosales Andres.jpg */,
+				78C96E9C1CDA73BC00F9FF94 /* Anne Freeman.jpg */,
+				78C96E9E1CDA742900F9FF94 /* Liam Watters.jpg */,
+				78C96EA01CDA745E00F9FF94 /* Sutton.jpg */,
+				78C96EA21CDA748C00F9FF94 /* Stud Muffin Hart.jpg */,
+				78C96EA41CDA74D000F9FF94 /* Hart.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -229,9 +250,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78C96E991CDA727100F9FF94 /* Robert Dalton.jpg in Resources */,
+				78C96E9B1CDA731F00F9FF94 /* DeRosales Andres.jpg in Resources */,
+				78C96EA51CDA74D000F9FF94 /* Hart.jpg in Resources */,
 				C2E76D601CD7D5320006F70D /* LaunchScreen.storyboard in Resources */,
+				78C96E9D1CDA73BC00F9FF94 /* Anne Freeman.jpg in Resources */,
 				C2E76D5D1CD7D5320006F70D /* Assets.xcassets in Resources */,
 				C2E76D5B1CD7D5320006F70D /* Main.storyboard in Resources */,
+				78C96EA31CDA748C00F9FF94 /* Stud Muffin Hart.jpg in Resources */,
+				78C96EA11CDA745E00F9FF94 /* Sutton.jpg in Resources */,
+				78C96E9F1CDA742900F9FF94 /* Liam Watters.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +510,7 @@
 				C2E76D7C1CD7D5320006F70D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2E76D7D1CD7D5320006F70D /* Build configuration list for PBXNativeTarget "KoreoTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +519,7 @@
 				C2E76D7F1CD7D5320006F70D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2E76D801CD7D5320006F70D /* Build configuration list for PBXNativeTarget "KoreoUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +528,7 @@
 				C2E76D821CD7D5320006F70D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
