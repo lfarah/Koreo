@@ -29,7 +29,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         if cell == nil {
             cell = UITableViewCell(style: .Default, reuseIdentifier: "cell")
         }
-        cell?.textLabel?.text = "Lucas sucks"
+        cell?.textLabel?.text = "Class Name"
         
         return cell!
     }
