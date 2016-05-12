@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import io, json
 
 
@@ -45,3 +46,14 @@ with io.open('database.json', 'r', encoding='utf-8') as f:
   dic = json.load(f)
   print dic[0]
 
+=======
+from flask import Flask
+app = Flask(__name__)
+
+@app.route('/name/<name>/<isFuckboy>')
+def hello_world(name,isFuckboy):
+    return "Fuck off, " + name + isFuckboy
+
+if __name__ == '__main__':
+	app.run(host='0.0.0.0')
+>>>>>>> cd794dd2351c7a0387e9b1bc4b2a3c609aa15bef
