@@ -15,6 +15,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let col1 = UIColor(red: 0/255, green: 184/255, blue: 169/255, alpha: 1) 
+        navigationController?.navigationBar.barTintColor = col1
+        navigationController?.navigationBar.tintColor = UIColor.whiteColor()
+        navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
     }
 
     override func didReceiveMemoryWarning() {
