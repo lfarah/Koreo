@@ -6,13 +6,13 @@ Koreo was created for Riordan students to choose their classes. Koreo makes it e
 
 What We Used
 
-Python with Flask (backend)
-iOS with Xcode and Swift (frontend)
-IBM Watson (Machine Learning)
+1. Python with Flask (backend)
+2. iOS with Xcode and Swift (frontend)
+3. IBM Watson (Machine Learning)
 
 How to use Koreo
 
-Type in Name and Grade
-Select required and choose specific required courses
-Then select electives and choose which electives you want
-Submit your classes
+1. Type in Name and Grade
+2. Select required and choose specific required courses
+3. Then select electives and choose which electives you want
+4. Submit your classes
