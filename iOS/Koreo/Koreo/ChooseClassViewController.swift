@@ -15,7 +15,7 @@ class ChooseClassViewController: UIViewController {
         UIGraphicsBeginImageContext(self.view.frame.size)
         UIImage(named: "Group.png")?.drawInRect(self.view.bounds)
         
-        var image: UIImage = UIGraphicsGetImageFromCurrentImageContext()
+        let image: UIImage = UIGraphicsGetImageFromCurrentImageContext()
         
         UIGraphicsEndImageContext()
         
