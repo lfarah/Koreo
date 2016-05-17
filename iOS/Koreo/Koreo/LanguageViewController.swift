@@ -1,30 +1,21 @@
 //
-//  ViewController.swift
+//  LanguageViewController.swift
 //  Koreo
 //
-//  Created by Lukas Kasimor on 5/5/16.
+//  Created by Lukas Kasimor on 5/17/16.
 //  Copyright © 2016 Lukas Kasimor. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class LanguageViewController: UIViewController {
 
-    @IBOutlet weak var table: UITableView!
-    @IBAction func allClasses(sender: AnyObject) {
-    }
-    @IBAction func requiredClasses(sender: AnyObject) {
-    }
-    @IBOutlet weak var electiveClasses: UIButton!
-    
+    @IBOutlet weak var languageTable: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        let col1 = UIColor(red: 0/255, green: 184/255, blue: 169/255, alpha: 1) 
-        navigationController?.navigationBar.barTintColor = col1
-        navigationController?.navigationBar.tintColor = UIColor.whiteColor()
-        navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -32,6 +23,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         // Dispose of any resources that can be recreated.
     }
     
+
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
         var cell = tableView.dequeueReusableCellWithIdentifier("cell")
@@ -47,7 +39,4 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 5
     }
-
-
 }
-
