@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6E2B7EFD1CE4FDB700083E11 /* photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E2B7EF71CE4FDB700083E11 /* photo.jpg */; };
-		6E2B7EFE1CE4FDB700083E11 /* 024c0be191db68d89b4446b63a50e9d7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E2B7EF81CE4FDB700083E11 /* 024c0be191db68d89b4446b63a50e9d7.jpg */; };
-		6E2B7EFF1CE4FDB700083E11 /* WvKTIeeC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E2B7EF91CE4FDB700083E11 /* WvKTIeeC.jpg */; };
 		6E2B7F001CE4FDB700083E11 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2B7EFA1CE4FDB700083E11 /* CollectionViewController.swift */; };
 		6E2B7F011CE4FDB700083E11 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2B7EFB1CE4FDB700083E11 /* CollectionViewCell.swift */; };
 		6E2B7F021CE4FDB700083E11 /* MathViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2B7EFC1CE4FDB700083E11 /* MathViewController.swift */; };
@@ -21,16 +18,14 @@
 		6E46ADD81CDBE840007AFB53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E46ADD61CDBE840007AFB53 /* LaunchScreen.storyboard */; };
 		6E7075C71CE672E4007FE1F8 /* ChooseClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7075C61CE672E4007FE1F8 /* ChooseClassViewController.swift */; };
 		6E7075C91CE67780007FE1F8 /* ElectivesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7075C81CE67780007FE1F8 /* ElectivesViewController.swift */; };
-		6EC186F21CEBBC3F00A7CBAA /* EnglishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC186F11CEBBC3F00A7CBAA /* EnglishViewController.swift */; };
-		6EC186F41CEBBC5200A7CBAA /* ScienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC186F31CEBBC5200A7CBAA /* ScienceViewController.swift */; };
-		6EC186F61CEBBC5F00A7CBAA /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC186F51CEBBC5F00A7CBAA /* HistoryViewController.swift */; };
-		6EC186F81CEBBC6B00A7CBAA /* LanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC186F71CEBBC6B00A7CBAA /* LanguageViewController.swift */; };
+		6EC186FA1CEBC50800A7CBAA /* history.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6EC186F91CEBC50800A7CBAA /* history.jpg */; };
+		6EC186FF1CEBC51300A7CBAA /* english.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6EC186FB1CEBC51300A7CBAA /* english.jpeg */; };
+		6EC187001CEBC51300A7CBAA /* language.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6EC186FC1CEBC51300A7CBAA /* language.jpg */; };
+		6EC187011CEBC51300A7CBAA /* math.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6EC186FD1CEBC51300A7CBAA /* math.jpg */; };
+		6EC187021CEBC51300A7CBAA /* science.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6EC186FE1CEBC51300A7CBAA /* science.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6E2B7EF71CE4FDB700083E11 /* photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = photo.jpg; path = ../../../../../Downloads/collectionView/collectionView/photo.jpg; sourceTree = "<group>"; };
-		6E2B7EF81CE4FDB700083E11 /* 024c0be191db68d89b4446b63a50e9d7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 024c0be191db68d89b4446b63a50e9d7.jpg; path = ../../../../../Downloads/collectionView/collectionView/024c0be191db68d89b4446b63a50e9d7.jpg; sourceTree = "<group>"; };
-		6E2B7EF91CE4FDB700083E11 /* WvKTIeeC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = WvKTIeeC.jpg; path = ../../../../../Downloads/collectionView/collectionView/WvKTIeeC.jpg; sourceTree = "<group>"; };
 		6E2B7EFA1CE4FDB700083E11 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionViewController.swift; path = /Users/lkasimor2016/Downloads/collectionView/collectionView/../CollectionViewController.swift; sourceTree = "<absolute>"; };
 		6E2B7EFB1CE4FDB700083E11 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionViewCell.swift; path = /Users/lkasimor2016/Downloads/collectionView/collectionView/../CollectionViewCell.swift; sourceTree = "<absolute>"; };
 		6E2B7EFC1CE4FDB700083E11 /* MathViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MathViewController.swift; path = ../../../../../Downloads/collectionView/collectionView/MathViewController.swift; sourceTree = "<group>"; };
@@ -44,10 +39,11 @@
 		6E46ADD91CDBE840007AFB53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E7075C61CE672E4007FE1F8 /* ChooseClassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseClassViewController.swift; sourceTree = "<group>"; };
 		6E7075C81CE67780007FE1F8 /* ElectivesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElectivesViewController.swift; sourceTree = "<group>"; };
-		6EC186F11CEBBC3F00A7CBAA /* EnglishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnglishViewController.swift; sourceTree = "<group>"; };
-		6EC186F31CEBBC5200A7CBAA /* ScienceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScienceViewController.swift; sourceTree = "<group>"; };
-		6EC186F51CEBBC5F00A7CBAA /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
-		6EC186F71CEBBC6B00A7CBAA /* LanguageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageViewController.swift; sourceTree = "<group>"; };
+		6EC186F91CEBC50800A7CBAA /* history.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = history.jpg; sourceTree = "<group>"; };
+		6EC186FB1CEBC51300A7CBAA /* english.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = english.jpeg; sourceTree = "<group>"; };
+		6EC186FC1CEBC51300A7CBAA /* language.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = language.jpg; sourceTree = "<group>"; };
+		6EC186FD1CEBC51300A7CBAA /* math.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = math.jpg; sourceTree = "<group>"; };
+		6EC186FE1CEBC51300A7CBAA /* science.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = science.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,17 +76,15 @@
 		6E46ADCC1CDBE840007AFB53 /* Koreo */ = {
 			isa = PBXGroup;
 			children = (
+				6EC186FB1CEBC51300A7CBAA /* english.jpeg */,
+				6EC186FC1CEBC51300A7CBAA /* language.jpg */,
+				6EC186FD1CEBC51300A7CBAA /* math.jpg */,
+				6EC186FE1CEBC51300A7CBAA /* science.jpg */,
+				6EC186F91CEBC50800A7CBAA /* history.jpg */,
 				6E2B7F031CE50F4A00083E11 /* Group.png */,
-				6E2B7EF71CE4FDB700083E11 /* photo.jpg */,
-				6E2B7EF81CE4FDB700083E11 /* 024c0be191db68d89b4446b63a50e9d7.jpg */,
-				6E2B7EF91CE4FDB700083E11 /* WvKTIeeC.jpg */,
 				6E2B7EFA1CE4FDB700083E11 /* CollectionViewController.swift */,
 				6E2B7EFB1CE4FDB700083E11 /* CollectionViewCell.swift */,
 				6E2B7EFC1CE4FDB700083E11 /* MathViewController.swift */,
-				6EC186F71CEBBC6B00A7CBAA /* LanguageViewController.swift */,
-				6EC186F51CEBBC5F00A7CBAA /* HistoryViewController.swift */,
-				6EC186F31CEBBC5200A7CBAA /* ScienceViewController.swift */,
-				6EC186F11CEBBC3F00A7CBAA /* EnglishViewController.swift */,
 				6E7075C61CE672E4007FE1F8 /* ChooseClassViewController.swift */,
 				6E7075C81CE67780007FE1F8 /* ElectivesViewController.swift */,
 				6E46ADCF1CDBE840007AFB53 /* ViewController.swift */,
@@ -161,13 +155,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EC187011CEBC51300A7CBAA /* math.jpg in Resources */,
 				6E2B7F041CE50F4A00083E11 /* Group.png in Resources */,
+				6EC187001CEBC51300A7CBAA /* language.jpg in Resources */,
 				6E46ADD81CDBE840007AFB53 /* LaunchScreen.storyboard in Resources */,
+				6EC187021CEBC51300A7CBAA /* science.jpg in Resources */,
 				6E46ADD51CDBE840007AFB53 /* Assets.xcassets in Resources */,
-				6E2B7EFD1CE4FDB700083E11 /* photo.jpg in Resources */,
-				6E2B7EFF1CE4FDB700083E11 /* WvKTIeeC.jpg in Resources */,
+				6EC186FF1CEBC51300A7CBAA /* english.jpeg in Resources */,
+				6EC186FA1CEBC50800A7CBAA /* history.jpg in Resources */,
 				6E46ADD31CDBE840007AFB53 /* Main.storyboard in Resources */,
-				6E2B7EFE1CE4FDB700083E11 /* 024c0be191db68d89b4446b63a50e9d7.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,14 +177,10 @@
 				6E7075C91CE67780007FE1F8 /* ElectivesViewController.swift in Sources */,
 				6E7075C71CE672E4007FE1F8 /* ChooseClassViewController.swift in Sources */,
 				6E2B7F001CE4FDB700083E11 /* CollectionViewController.swift in Sources */,
-				6EC186F61CEBBC5F00A7CBAA /* HistoryViewController.swift in Sources */,
 				6E46ADD01CDBE840007AFB53 /* ViewController.swift in Sources */,
 				6E2B7F021CE4FDB700083E11 /* MathViewController.swift in Sources */,
 				6E2B7F011CE4FDB700083E11 /* CollectionViewCell.swift in Sources */,
 				6E46ADCE1CDBE840007AFB53 /* AppDelegate.swift in Sources */,
-				6EC186F81CEBBC6B00A7CBAA /* LanguageViewController.swift in Sources */,
-				6EC186F41CEBBC5200A7CBAA /* ScienceViewController.swift in Sources */,
-				6EC186F21CEBBC3F00A7CBAA /* EnglishViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
