@@ -12,12 +12,12 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 
     @IBOutlet weak var table: UITableView!
     
-    let name: String
-    
-    init(name: String) {
-        self.name = name
-    }
-    
+//    let name: String
+//    
+//    init(name: String) {
+//        self.name = name
+//    }
+  
     @IBAction func allClasses(sender: AnyObject) {
 
         tableArray = []
@@ -28,11 +28,12 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             tableArray.append(required)
         }
         table.reloadData()
-        let classes = [requiredArray, electivesArray]
-        let sortedClasses = classes.sort { $0.name < $1.name }
-        print(sortedClasses)
+//        let classes = [requiredArray, electivesArray]
+//        let sortedClasses = classes.sort { $0.name < $1.name }
+//        print(sortedClasses)
 
     }
+  
     @IBAction func requiredClasses(sender: AnyObject) {
         tableArray = []
         tableArray = requiredArray
