@@ -6,9 +6,10 @@ Koreo was created for Riordan students to choose their classes. Koreo makes it e
 
 ### What We Used
 
-1. Python with Flask (backend)
-2. iOS with Xcode and Swift (frontend)
-3. IBM Watson (Machine Learning)
+1. Python with Flask - Backend
+2. iOS with Xcode and Swift - App
+3. Alamofire - Networking
+4. Swiftlint - Linting the Swift code
 
 ### How to use Koreo
 
