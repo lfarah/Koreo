@@ -19,6 +19,8 @@
 		C25095E11CF2CA4E007E2F36 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25095DF1CF2CA4E007E2F36 /* CollectionViewCell.swift */; };
 		C25095E21CF2CA4E007E2F36 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25095E01CF2CA4E007E2F36 /* CollectionViewController.swift */; };
 		C2DDEA7E1CF2DAEC003E1BF3 /* CellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DDEA7D1CF2DAEC003E1BF3 /* CellTableViewCell.swift */; };
+		C2DDEA811CF39A49003E1BF3 /* ClassModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DDEA801CF39A49003E1BF3 /* ClassModel.swift */; };
+		C2DDEA831CF39A5C003E1BF3 /* ClassManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DDEA821CF39A5C003E1BF3 /* ClassManager.swift */; };
 		C2F4A4181CF2CD5800E482D7 /* ClassDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F4A4171CF2CD5800E482D7 /* ClassDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +40,8 @@
 		C25095DF1CF2CA4E007E2F36 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		C25095E01CF2CA4E007E2F36 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		C2DDEA7D1CF2DAEC003E1BF3 /* CellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellTableViewCell.swift; sourceTree = "<group>"; };
+		C2DDEA801CF39A49003E1BF3 /* ClassModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassModel.swift; sourceTree = "<group>"; };
+		C2DDEA821CF39A5C003E1BF3 /* ClassManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassManager.swift; sourceTree = "<group>"; };
 		C2F4A4171CF2CD5800E482D7 /* ClassDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassDetailViewController.swift; sourceTree = "<group>"; };
 		E6A82D93F45C0A6C4B44C389 /* Pods_Koreo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Koreo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -76,6 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				C25095DF1CF2CA4E007E2F36 /* CollectionViewCell.swift */,
+				C2DDEA801CF39A49003E1BF3 /* ClassModel.swift */,
+				C2DDEA821CF39A5C003E1BF3 /* ClassManager.swift */,
 				C25095E01CF2CA4E007E2F36 /* CollectionViewController.swift */,
 				6E7075C61CE672E4007FE1F8 /* ChooseClassViewController.swift */,
 				6E46ADCF1CDBE840007AFB53 /* ViewController.swift */,
@@ -251,8 +257,10 @@
 				6E7075C71CE672E4007FE1F8 /* ChooseClassViewController.swift in Sources */,
 				C25095E11CF2CA4E007E2F36 /* CollectionViewCell.swift in Sources */,
 				6E46ADD01CDBE840007AFB53 /* ViewController.swift in Sources */,
+				C2DDEA831CF39A5C003E1BF3 /* ClassManager.swift in Sources */,
 				C2DDEA7E1CF2DAEC003E1BF3 /* CellTableViewCell.swift in Sources */,
 				6E2B7F021CE4FDB700083E11 /* MathViewController.swift in Sources */,
+				C2DDEA811CF39A49003E1BF3 /* ClassModel.swift in Sources */,
 				6E46ADCE1CDBE840007AFB53 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
