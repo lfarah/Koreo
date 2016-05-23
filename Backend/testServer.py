@@ -96,7 +96,7 @@ data = [
     'description':'This course is designed for the student bound directly for a four-year college after high school. Special emphasis is given to topics in chemistry that form the basis for college-level courses as well as providing general knowledge. The principles of chemistry are taught through an integrated program of lecture, class discussions, and laboratory investigations. Problem-solving skills and the quantitative investigation of matter and its changes are the basis of this course.'
 },
 {
-    'name':'Concenptial Physics',
+    'name':'Conceptial Physics',
     'block':'4',
     'required': True,
     'area':'Science',
