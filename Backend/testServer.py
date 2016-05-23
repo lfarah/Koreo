@@ -251,8 +251,8 @@ def returnElectives():
         result = []
         for item in data:
             if item['required']==False:
-                result.append(item['name'])
-        return str(result)
+                result.append(item)
+        return json.dumps(result)
 
 @app.route('/returnrequired')
 def returnRequired():
@@ -261,7 +261,7 @@ def returnRequired():
         for item in data:
             if item['required']==True:
                 result.append(item)
-        return str(result)
+        return json.dumps(result)
 
 @app.route('/returnsubject/<subject>')
 def returnSubject(subject):
