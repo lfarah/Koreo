@@ -1,8 +1,16 @@
 # Koreo
 
-# Read Me
+# About
 
 Koreo was created for Riordan students to choose their classes. Koreo makes it easier for the administration and the students keep track of class selection. Students can also see which teachers are teaching a class but not specifically which block a teacher is teaching. Koreo is meant to streamline old ways of choosing classes. 
+
+### Challenges
+
+- learning Python and Flask
+- Collection views
+- pulling data from server to app
+- Managing navigation controller
+- Photoshoping app logo
 
 ### What We Used
 
