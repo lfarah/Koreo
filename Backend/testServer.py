@@ -260,7 +260,7 @@ def returnRequired():
         result = []
         for item in data:
             if item['required']==True:
-                result.append(item['name'])
+                result.append(item)
         return str(result)
 
 @app.route('/returnsubject/<subject>')
@@ -268,9 +268,9 @@ def returnSubject(subject):
     with io.open('database.json', 'r', encoding='utf-8') as f:
         result = []
         for item in data:
-            if item['area']== subject:
-                result.append(item['name'])
-        return str(result)
+            if item['area'].lower() == subject:
+                result.append(item)
+        return json.dumps(result)
 
 if __name__ == '__main__':
     port = int(os.getenv('PORT', 8080)) 
