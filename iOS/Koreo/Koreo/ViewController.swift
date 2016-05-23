@@ -5,6 +5,7 @@
 //  Created by Lukas Kasimor on 5/5/16.
 //  Copyright © 2016 Lukas Kasimor. All rights reserved.
 //
+//swiftlint:disable line_length
 
 import UIKit
 
@@ -130,4 +131,3 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 	}
 
 }
-

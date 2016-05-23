@@ -122,6 +122,7 @@
 				6E46ADC81CDBE840007AFB53 /* Resources */,
 				7304C6984EA26FC188B1C222 /* Embed Pods Frameworks */,
 				C3DEAD60C4E70F24AF9261DD /* Copy Pods Resources */,
+				C2DDEA7F1CF394BD003E1BF3 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -193,6 +194,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Koreo/Pods-Koreo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		C2DDEA7F1CF394BD003E1BF3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
 		C3DEAD60C4E70F24AF9261DD /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;

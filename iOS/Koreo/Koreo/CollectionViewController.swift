@@ -5,6 +5,7 @@
 //  Created by Eric Galindo on 5/6/16.
 //  Copyright © 2016 Eric Galindo. All rights reserved.
 //
+// swiftlint:disable line_length
 
 import UIKit
 
@@ -13,7 +14,6 @@ class CollectionViewController: UIViewController, UICollectionViewDelegate, UICo
 	@IBOutlet weak var collectionView: UICollectionView!
 
 	let areaNames = ["english", "language", "science", "math", "history"]
-  
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
@@ -33,13 +33,16 @@ class CollectionViewController: UIViewController, UICollectionViewDelegate, UICo
 
 	func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
 
-		let cell = collectionView.dequeueReusableCellWithReuseIdentifier("cell", forIndexPath: indexPath) as! CollectionViewCell
+		guard let cell = collectionView.dequeueReusableCellWithReuseIdentifier("cell", forIndexPath: indexPath) as? CollectionViewCell else {
 
-    let area = areaNames[indexPath.row]
+			return UICollectionViewCell()
+		}
+
+		let area = areaNames[indexPath.row]
 		cell.imageView?.image = UIImage(named: area)
 		cell.titleLabel?.text = area
-    cell.titleLabel.backgroundColor = UIColor.lightGrayColor()
-    
+		cell.titleLabel.backgroundColor = UIColor.lightGrayColor()
+
 		return cell
 	}
 
@@ -52,10 +55,11 @@ class CollectionViewController: UIViewController, UICollectionViewDelegate, UICo
 	var selectedIndex = 0
 	override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
 
-		let vc = segue.destinationViewController as! MathViewController
+		if let vc = segue.destinationViewController as? MathViewController {
 
-		vc.title = areaNames[selectedIndex]
-    vc.area = areaNames[selectedIndex]
+			vc.title = areaNames[selectedIndex]
+			vc.area = areaNames[selectedIndex]
+		}
 	}
 
 }

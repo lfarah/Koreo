@@ -5,6 +5,7 @@
 //  Created by Lucas Farah on 5/22/16.
 //  Copyright © 2016 Lukas Kasimor. All rights reserved.
 //
+//swiftlint:disable line_length
 
 import UIKit
 

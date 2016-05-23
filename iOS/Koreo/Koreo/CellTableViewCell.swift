@@ -15,9 +15,6 @@ class CellTableViewCell: UITableViewCell {
 
   @IBOutlet weak var lblClassBlock: UILabel!
 
-  
-  
-  
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

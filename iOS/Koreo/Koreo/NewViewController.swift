@@ -5,7 +5,8 @@
 //  Created by Eric Galindo on 5/6/16.
 //  Copyright © 2016 Eric Galindo. All rights reserved.
 //
-
+//swiftlint:disable trailing_whitespace
+//swiftlint:disable line_length
 import UIKit
 
 class NewViewController: UIViewController {

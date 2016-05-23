@@ -5,6 +5,9 @@
 //  Created by Eric Galindo on 5/6/16.
 //  Copyright © 2016 Eric Galindo. All rights reserved.
 //
+//swiftlint:disable line_length
+//swiftlint:disable trailing_whitespace
+//swiftlint:disable force_cast
 
 import UIKit
 import Alamofire
@@ -51,8 +54,8 @@ class ElectivesViewController: UIViewController, UITableViewDataSource, UITableV
   func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
     
     var cell = tableView.dequeueReusableCellWithIdentifier("cell") as! CellTableViewCell!
-    if !(cell != nil)
-    {
+   
+    if !(cell != nil) {
       cell = CellTableViewCell(style: .Default, reuseIdentifier: "cell")
     }
     

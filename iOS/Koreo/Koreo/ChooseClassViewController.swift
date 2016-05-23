@@ -5,6 +5,10 @@
 //  Created by Lukas Kasimor on 5/13/16.
 //  Copyright © 2016 Lukas Kasimor. All rights reserved.
 //
+// swiftlint:disable trailing_whitespace
+// swiftlint:disable line_length
+
+
 
 import UIKit
 
@@ -28,8 +32,7 @@ class ChooseClassViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
+  
     /*
     // MARK: - Navigation
 
