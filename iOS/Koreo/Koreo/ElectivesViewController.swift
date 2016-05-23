@@ -1,43 +1,104 @@
 //
-//  ElectivesViewController.swift
-//  Koreo
+//  NewViewController.swift
+//  collectionView
 //
-//  Created by Lukas Kasimor on 5/13/16.
-//  Copyright © 2016 Lukas Kasimor. All rights reserved.
+//  Created by Eric Galindo on 5/6/16.
+//  Copyright © 2016 Eric Galindo. All rights reserved.
 //
 
 import UIKit
+import Alamofire
 
-class ElectivesViewController: UIViewController {
-
-    @IBOutlet weak var electiveTable: UITableView!
+class ElectivesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+  
+  @IBOutlet weak var imageView: UIImageView!
+  
+  @IBOutlet weak var mathTable: UITableView!
+  
+  var classes: [[String: AnyObject]] = []
+  var area = ""
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+    //        self.imageView.image = UIImage(named: "math.jpg")!
     
-
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+    // Do any additional setup after loading the view.
+    //		print(area)
+    //		print(classes)
+    downloadFromServer(area)
+  }
+  
+  func downloadFromServer(area: String) {
+    
+    Alamofire.request(.GET, "http://0.0.0.0:8080/returnelectives", parameters: [:])
+      .responseJSON { response in
         
-        var cell = tableView.dequeueReusableCellWithIdentifier("cell")
-        
-        if cell == nil {
-            cell = UITableViewCell(style: .Default, reuseIdentifier: "cell")
+        print(response)
+        if let JSON = response.result.value {
+          self.classes = JSON as! [[String: AnyObject]]
+          self.mathTable.reloadData()
         }
-        cell?.textLabel?.text = "Class Name"
-        
-        return cell!
     }
     
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
+  }
+  
+  override func didReceiveMemoryWarning() {
+    super.didReceiveMemoryWarning()
+    // Dispose of any resources that can be recreated.
+  }
+  
+  func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+    
+    var cell = tableView.dequeueReusableCellWithIdentifier("cell") as! CellTableViewCell!
+    if !(cell != nil)
+    {
+      cell = CellTableViewCell(style: .Default, reuseIdentifier: "cell")
     }
-
+    
+    let classDic = classes[indexPath.row]
+    print("0")
+    print(classDic["name"])
+    print("1")
+    
+    if let name = classDic["name"] as? String, teacher = classDic["teacher"] as? String, block = classDic["block"] as? String {
+      
+      cell?.lblClassName.text = name
+      cell.lblTeacherName.text = teacher
+      cell.lblClassBlock.text = block
+    }
+    return cell!
+  }
+  
+  func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    return classes.count
+  }
+  
+  func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+    
+    selectedIndex = indexPath.row
+    self.performSegueWithIdentifier("detail", sender: "elective")
+  }
+  
+  var selectedIndex = 0
+  
+  override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    
+    let vc = segue.destinationViewController as! ClassDetailViewController
+    
+    let classDic = classes[selectedIndex]
+    if let name = classDic["name"] as? String, teacher = classDic["teacher"] as? String, block = classDic["block"] as? String, area = classDic["area"] as? String, classDescription = classDic["description"] as? String {
+      
+      vc.classArea = area
+      vc.classname = name
+      vc.classBlock = block
+      vc.classTeacher = teacher
+      vc.classDescription = classDescription
+      vc.classType = sender as! String
+    }
+    //		vc.classname = classes[selectedIndex]["name"]!
+    //		vc.classBlock = classes[selectedIndex]["block"]!
+    
+  }
+  
 }

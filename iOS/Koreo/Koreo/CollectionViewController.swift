@@ -38,7 +38,8 @@ class CollectionViewController: UIViewController, UICollectionViewDelegate, UICo
     let area = areaNames[indexPath.row]
 		cell.imageView?.image = UIImage(named: area)
 		cell.titleLabel?.text = area
-
+    cell.titleLabel.backgroundColor = UIColor.lightGrayColor()
+    
 		return cell
 	}
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54766C12952C451E200283C0 /* Pods_Koreo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6A82D93F45C0A6C4B44C389 /* Pods_Koreo.framework */; };
 		6E2B7F021CE4FDB700083E11 /* MathViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2B7EFC1CE4FDB700083E11 /* MathViewController.swift */; };
 		6E46ADCE1CDBE840007AFB53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E46ADCD1CDBE840007AFB53 /* AppDelegate.swift */; };
 		6E46ADD01CDBE840007AFB53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E46ADCF1CDBE840007AFB53 /* ViewController.swift */; };
@@ -17,10 +18,12 @@
 		6E7075C91CE67780007FE1F8 /* ElectivesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7075C81CE67780007FE1F8 /* ElectivesViewController.swift */; };
 		C25095E11CF2CA4E007E2F36 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25095DF1CF2CA4E007E2F36 /* CollectionViewCell.swift */; };
 		C25095E21CF2CA4E007E2F36 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25095E01CF2CA4E007E2F36 /* CollectionViewController.swift */; };
+		C2DDEA7E1CF2DAEC003E1BF3 /* CellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DDEA7D1CF2DAEC003E1BF3 /* CellTableViewCell.swift */; };
 		C2F4A4181CF2CD5800E482D7 /* ClassDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F4A4171CF2CD5800E482D7 /* ClassDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6CB06874D13CDA8375A0B3AC /* Pods-Koreo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Koreo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Koreo/Pods-Koreo.release.xcconfig"; sourceTree = "<group>"; };
 		6E2B7EFC1CE4FDB700083E11 /* MathViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MathViewController.swift; path = ../../../../../Downloads/collectionView/collectionView/MathViewController.swift; sourceTree = "<group>"; };
 		6E46ADCA1CDBE840007AFB53 /* Koreo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Koreo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E46ADCD1CDBE840007AFB53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -31,9 +34,12 @@
 		6E46ADD91CDBE840007AFB53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E7075C61CE672E4007FE1F8 /* ChooseClassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseClassViewController.swift; sourceTree = "<group>"; };
 		6E7075C81CE67780007FE1F8 /* ElectivesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElectivesViewController.swift; sourceTree = "<group>"; };
+		BEA9B83EFAEA1B95DDD9C716 /* Pods-Koreo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Koreo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Koreo/Pods-Koreo.debug.xcconfig"; sourceTree = "<group>"; };
 		C25095DF1CF2CA4E007E2F36 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		C25095E01CF2CA4E007E2F36 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		C2DDEA7D1CF2DAEC003E1BF3 /* CellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellTableViewCell.swift; sourceTree = "<group>"; };
 		C2F4A4171CF2CD5800E482D7 /* ClassDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassDetailViewController.swift; sourceTree = "<group>"; };
+		E6A82D93F45C0A6C4B44C389 /* Pods_Koreo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Koreo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54766C12952C451E200283C0 /* Pods_Koreo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +59,8 @@
 			children = (
 				6E46ADCC1CDBE840007AFB53 /* Koreo */,
 				6E46ADCB1CDBE840007AFB53 /* Products */,
+				AAE085EB31DC9D8D9177EAC5 /* Pods */,
+				E40CA5F6AE017D3725E10899 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,10 +78,11 @@
 				C25095DF1CF2CA4E007E2F36 /* CollectionViewCell.swift */,
 				C25095E01CF2CA4E007E2F36 /* CollectionViewController.swift */,
 				6E7075C61CE672E4007FE1F8 /* ChooseClassViewController.swift */,
-				6E7075C81CE67780007FE1F8 /* ElectivesViewController.swift */,
 				6E46ADCF1CDBE840007AFB53 /* ViewController.swift */,
 				6E46ADCD1CDBE840007AFB53 /* AppDelegate.swift */,
 				6E46ADD11CDBE840007AFB53 /* Main.storyboard */,
+				C2DDEA7D1CF2DAEC003E1BF3 /* CellTableViewCell.swift */,
+				6E7075C81CE67780007FE1F8 /* ElectivesViewController.swift */,
 				6E2B7EFC1CE4FDB700083E11 /* MathViewController.swift */,
 				C2F4A4171CF2CD5800E482D7 /* ClassDetailViewController.swift */,
 				6E46ADD41CDBE840007AFB53 /* Assets.xcassets */,
@@ -82,6 +92,23 @@
 			path = Koreo;
 			sourceTree = "<group>";
 		};
+		AAE085EB31DC9D8D9177EAC5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEA9B83EFAEA1B95DDD9C716 /* Pods-Koreo.debug.xcconfig */,
+				6CB06874D13CDA8375A0B3AC /* Pods-Koreo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E40CA5F6AE017D3725E10899 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6A82D93F45C0A6C4B44C389 /* Pods_Koreo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,9 +116,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E46ADDC1CDBE840007AFB53 /* Build configuration list for PBXNativeTarget "Koreo" */;
 			buildPhases = (
+				ED148454B6929C4B989E3372 /* Check Pods Manifest.lock */,
 				6E46ADC61CDBE840007AFB53 /* Sources */,
 				6E46ADC71CDBE840007AFB53 /* Frameworks */,
 				6E46ADC81CDBE840007AFB53 /* Resources */,
+				7304C6984EA26FC188B1C222 /* Embed Pods Frameworks */,
+				C3DEAD60C4E70F24AF9261DD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -148,6 +178,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7304C6984EA26FC188B1C222 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Koreo/Pods-Koreo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3DEAD60C4E70F24AF9261DD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Koreo/Pods-Koreo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED148454B6929C4B989E3372 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6E46ADC61CDBE840007AFB53 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -159,6 +237,7 @@
 				6E7075C71CE672E4007FE1F8 /* ChooseClassViewController.swift in Sources */,
 				C25095E11CF2CA4E007E2F36 /* CollectionViewCell.swift in Sources */,
 				6E46ADD01CDBE840007AFB53 /* ViewController.swift in Sources */,
+				C2DDEA7E1CF2DAEC003E1BF3 /* CellTableViewCell.swift in Sources */,
 				6E2B7F021CE4FDB700083E11 /* MathViewController.swift in Sources */,
 				6E46ADCE1CDBE840007AFB53 /* AppDelegate.swift in Sources */,
 			);
@@ -271,6 +350,7 @@
 		};
 		6E46ADDD1CDBE840007AFB53 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEA9B83EFAEA1B95DDD9C716 /* Pods-Koreo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Koreo/Info.plist;
@@ -282,6 +362,7 @@
 		};
 		6E46ADDE1CDBE840007AFB53 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CB06874D13CDA8375A0B3AC /* Pods-Koreo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Koreo/Info.plist;
