@@ -12,7 +12,6 @@ Koreo was created for Riordan students to choose their classes. Koreo makes it e
 
 ### How to use Koreo
 
-1. Type in Name and Grade
-2. Select required and choose specific required courses
-3. Then select electives and choose which electives you want
-4. Submit your classes
+1. Select required and choose specific required courses
+2. Then select electives and choose which electives you want
+3. Submit your classes
