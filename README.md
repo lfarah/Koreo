@@ -18,6 +18,7 @@ Koreo was created for Riordan students to choose their classes. Koreo makes it e
 2. iOS with Xcode and Swift - App
 3. Alamofire - Networking
 4. Swiftlint - Linting the Swift code
+5. Redbull
 
 ### How to use Koreo
 
