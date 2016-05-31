@@ -79,18 +79,10 @@
 		6E46ADCC1CDBE840007AFB53 /* Koreo */ = {
 			isa = PBXGroup;
 			children = (
-				C25095DF1CF2CA4E007E2F36 /* CollectionViewCell.swift */,
-				C2DDEA801CF39A49003E1BF3 /* ClassModel.swift */,
-				C2DDEA821CF39A5C003E1BF3 /* ClassManager.swift */,
-				C25095E01CF2CA4E007E2F36 /* CollectionViewController.swift */,
-				6E7075C61CE672E4007FE1F8 /* ChooseClassViewController.swift */,
-				6E46ADCF1CDBE840007AFB53 /* ViewController.swift */,
 				6E46ADCD1CDBE840007AFB53 /* AppDelegate.swift */,
-				6E46ADD11CDBE840007AFB53 /* Main.storyboard */,
-				C2DDEA7D1CF2DAEC003E1BF3 /* CellTableViewCell.swift */,
-				6E7075C81CE67780007FE1F8 /* ElectivesViewController.swift */,
-				6E2B7EFC1CE4FDB700083E11 /* MathViewController.swift */,
-				C2F4A4171CF2CD5800E482D7 /* ClassDetailViewController.swift */,
+				C2DDEA841CF3A022003E1BF3 /* Model */,
+				C2DDEA861CF3A03D003E1BF3 /* View */,
+				C2DDEA851CF3A02D003E1BF3 /* Controller */,
 				6E46ADD41CDBE840007AFB53 /* Assets.xcassets */,
 				6E46ADD61CDBE840007AFB53 /* LaunchScreen.storyboard */,
 				6E46ADD91CDBE840007AFB53 /* Info.plist */,
@@ -105,6 +97,38 @@
 				6CB06874D13CDA8375A0B3AC /* Pods-Koreo.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		C2DDEA841CF3A022003E1BF3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C2DDEA801CF39A49003E1BF3 /* ClassModel.swift */,
+				C2DDEA821CF39A5C003E1BF3 /* ClassManager.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C2DDEA851CF3A02D003E1BF3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C25095E01CF2CA4E007E2F36 /* CollectionViewController.swift */,
+				6E7075C61CE672E4007FE1F8 /* ChooseClassViewController.swift */,
+				6E46ADCF1CDBE840007AFB53 /* ViewController.swift */,
+				6E7075C81CE67780007FE1F8 /* ElectivesViewController.swift */,
+				6E2B7EFC1CE4FDB700083E11 /* MathViewController.swift */,
+				C2F4A4171CF2CD5800E482D7 /* ClassDetailViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C2DDEA861CF3A03D003E1BF3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C25095DF1CF2CA4E007E2F36 /* CollectionViewCell.swift */,
+				6E46ADD11CDBE840007AFB53 /* Main.storyboard */,
+				C2DDEA7D1CF2DAEC003E1BF3 /* CellTableViewCell.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 		E40CA5F6AE017D3725E10899 /* Frameworks */ = {
